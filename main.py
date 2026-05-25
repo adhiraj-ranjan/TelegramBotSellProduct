@@ -53,7 +53,7 @@ PAYMENT_CAPTION = """
 
 📛 𝐀𝐜𝐜𝐞𝐬𝐬: Lifetime VIP
 💵 𝐀𝐦𝐨𝐮𝐧𝐭: ₹49
-🏦 𝐔𝐏𝐈 𝐈𝐃: BHARATPE.9M0H0Q0A6Q387178@unitype
+🏦 𝐔𝐏𝐈 𝐈𝐃: fangyuann@ptyes
 
 1️⃣ 𝐒𝐜𝐚𝐧 𝐐𝐑 𝐂𝐨𝐝𝐞
 2️⃣ 𝐏𝐚𝐲 𝐮𝐬𝐢𝐧𝐠 𝐔𝐏𝐈
