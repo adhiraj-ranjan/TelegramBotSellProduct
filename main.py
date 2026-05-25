@@ -24,7 +24,7 @@ OWNER_ID = 6141569999            # ← REPLACE WITH YOUR TELEGRAM USER ID
 PRODUCT_IMAGE = "img.jpg"
 
 # Payment QR Code Image
-PAYMENT_QR_IMAGE = "qr.jpg"
+PAYMENT_QR_IMAGE = "qr.jpeg"
 
 PRODUCT_CAPTION = """
 𝟱𝟱𝗞 𝗣𝗥𝗘𝗠𝗜𝗨𝗠 𝗤𝗨𝗔𝗟𝗜𝗧𝗬 𝗩𝗜𝗗𝗘𝗢 𝗚𝗥𝗢𝗨𝗣
@@ -52,7 +52,7 @@ PAYMENT_CAPTION = """
 ⚡ 𝐏𝐀𝐘𝐌𝐄𝐍𝐓 𝐆𝐀𝐓𝐄𝐖𝐀𝐘
 
 📛 𝐀𝐜𝐜𝐞𝐬𝐬: Lifetime VIP
-💵 𝐀𝐦𝐨𝐮𝐧𝐭: ₹46
+💵 𝐀𝐦𝐨𝐮𝐧𝐭: ₹49
 🏦 𝐔𝐏𝐈 𝐈𝐃: BHARATPE.9M0H0Q0A6Q387178@unitype
 
 1️⃣ 𝐒𝐜𝐚𝐧 𝐐𝐑 𝐂𝐨𝐝𝐞
@@ -81,7 +81,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 👤 Name: {user.first_name} {user.last_name or ''}
 🔹 Username: @{user.username if user.username else 'None'}
-🆔 User ID: <code>{user.id}</code>
+🆔 User ID: {user.id}
 📅 Time: {update.message.date}
     """
     await notify_owner(context, user_info.strip())
@@ -150,7 +150,7 @@ async def handle_photo(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 👤 From: {user.first_name} {user.last_name or ''}
 🔹 Username: @{user.username if user.username else 'None'}
-🆔 User ID: <code>{user.id}</code>
+🆔 User ID: {user.id}
         """
         await notify_owner(context, proof_info.strip())
         
